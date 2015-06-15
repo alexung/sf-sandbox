@@ -72,3 +72,13 @@ body {
   text-decoration: none;
   color: black;
 }
+
+.browse-docs-btn {
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  overflow: hidden;
+  outline: none;
+  color: #1079B9;
+
+}
