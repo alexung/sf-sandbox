@@ -4,4 +4,7 @@ sfApp.config(['$routeProvider', function($routeProvider){
       templateUrl: "app/components/help-training/views/helpTrainingView.html",
       controller: "helpTrainingCtrl"
     })
+    .otherwise({
+      redirectTo: '/'
+    });
 }]);
