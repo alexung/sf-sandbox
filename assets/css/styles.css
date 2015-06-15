@@ -44,6 +44,31 @@ body {
 }
 
 .search-bar {
+  overflow: hidden;
+  width: 100%;
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
+}
+
+.white-background {
+  background-color: white;
+  padding: 2% 0 2% 0;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+
+.text-below-search {
+  color: white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.popular-topics:active, .popular-topics:visited, .popular-topics:link {
+  text-decoration: none;
+  color: white;
+}
+
+.popular-topics:hover {
+  text-decoration: none;
+  color: black;
 }
