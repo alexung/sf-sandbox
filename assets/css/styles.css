@@ -20,6 +20,10 @@ body {
   color: white;
 }
 
+.blue {
+  color: #1079B9;
+}
+
 .help-training {
   font-family: 'Lato', sans-serif;
 }
@@ -96,4 +100,11 @@ body {
   line-height:50px;
   border: thin solid;
   padding: 25px;
+  border-bottom: thick solid #1079B9;
 }
+
+.each-solutions-box {
+  margin: 1% 0 1% 0;
+}
+
+
