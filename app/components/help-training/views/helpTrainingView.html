@@ -1,3 +1,8 @@
+<ng-include 
+  src="app/components/views/searchBar.html"
+  [onload="app/components/views/searchBar.html"]
+  [autoscroll="app/components/views/searchBar.html"]>
+</ng-include>
 <!-- Search bar -->
 <div class="grey-background">
   <h1 class="text-center white help-training">Help & Training</h1>
@@ -41,9 +46,10 @@
 </div>
 
 <!--Top Solutions-->
-<h3>Top Solutions</h3>
 
 <div class="container col-md-12">
+  <h3>Top Solutions</h3>
+ <button class="browse-docs-btn browse-all-btn">browse all <i class="glyphicon glyphicon-menu-right"></i></button>
   <div class="row">
     <div class="col-md-4 each-solutions-box">
       <i class="glyphicon glyphicon-file blue"></i> <a href="#/">Learn how to reset your password</a>
@@ -79,3 +85,93 @@
   </div>
 </div>
 
+<!-- Additional Help & Training -->
+<div class="container col-md-12 grey">
+  <div class="container grey">
+  <h3>Additional Help & Training</h3>
+    <div class="row">
+      <div class="col-md-3 col-md-offset-3 additional-help-box margin-right">
+        <h5>CATEGORY TYPE</h5>
+        <h3>Lorem Ipsum Dolor Sit</h3>
+        <p>Lorem ipsum dolor sit amet, vis cu pericula referrentur. Id vix velit fierent insolens. Ex usu dolore delicata, est ei vero phaedrum postulant. Quidam mentitum in ius, ei fugit scripta meliore pro, ea sit stet legere sadipscing. Ex sit stet urbanitas.</p>
+        <br><br>
+        <button class="home-btn">call to action</button>
+      </div>
+      <div class="col-md-3 col-md-offset-6 additional-help-box margin-right">
+        <h5>CATEGORY TYPE</h5>
+        <h3>Lorem Ipsum Dolor Sit</h3>
+        <p>Lorem ipsum dolor sit amet, vis cu pericula referrentur. Id vix velit fierent insolens. Ex usu dolore delicata, est ei vero phaedrum postulant. Quidam mentitum in ius, ei fugit scripta meliore pro, ea sit stet legere sadipscing. Ex sit stet urbanitas.</p>
+        <br><br>
+        <button class="home-btn">call to action</button>
+      </div>
+      <div class="col-md-3 col-md-offset-9 additional-help-box">
+        <h5>CATEGORY TYPE</h5>
+        <h3>Lorem Ipsum Dolor Sit</h3>
+        <p>Lorem ipsum dolor sit amet, vis cu pericula referrentur. Id vix velit fierent insolens. Ex usu dolore delicata, est ei vero phaedrum postulant. Quidam mentitum in ius, ei fugit scripta meliore pro, ea sit stet legere sadipscing. Ex sit stet urbanitas.</p>
+        <br><br>
+        <button class="home-btn">call to action</button>
+      </div>
+  </div>
+  <button class="browse-docs-btn right">title of next card <i class="glyphicon glyphicon-menu-right"></i></button>
+  </div>
+</div>
+
+
+<!-- Upgrade Statement -->
+<br class="clear">
+<div class="blue-background">
+  <div class="container">
+    <h1 class="white-font text-center">Upgrade Statement</h1>
+    <p class="white-font text-center">Lorem ipsum dolor sit amet, vis cu pericula referrentur. Id vix velit fierent insolens. Ex usu dolore delicata, est ei vero phaedrum postulant.</p>
+    <button class="white-btn">lorem ipsum</button>
+    <!-- <img class="upgrade-statement-img" src="http://i.imgur.com/rHOUJLx.png" title="image-to-be-filled-in" /> -->
+    <!-- Need to fix this picture -->
+    <i class="upgrade-statement-img">
+    </i>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="container footer">
+  <div class="row">
+  <div class="container col-md-3">
+    <h5 class="white-font">Salesforce Success Community</h5>
+    <ul>
+      <li><a href="#/" class="white-font footer-links">Answers</a></li>
+      <li><a href="#/" class="white-font footer-links">Dreamforce</a></li>
+      <li><a href="#/" class="white-font footer-links">Help & Training</a></li>
+      <li><a href="#/" class="white-font footer-links">Collaboration</a></li>
+      <li><a href="#/" class="white-font footer-links">Ideas</a></li>
+      <li><a href="#/" class="white-font footer-links">User Groups</a></li>
+      <li><a href="#/" class="white-font footer-links">Known Issues</a></li>
+    </ul>
+  </div>
+
+  <div class="container col-md-3">
+    <h5 class="white-font">More Places</h5>
+    <ul>
+      <li><a href="#/" class="white-font footer-links">Salesforce.com</a></li>
+      <li><a href="#/" class="white-font footer-links">AppExchange</a></li>
+      <li><a href="#/" class="white-font footer-links">Salesforce Developers</a></li>
+  </div>
+
+  <div class="container col-md-3">
+    <h5 class="white-font">More Places</h5>
+    <ul>
+      <li class="white-font footer-links">1-800-NO-SOFTWARE</li>
+      <li class="white-font footer-links">1-800-667-6389</li>
+      <li class="white-font footer-links">One Market St.</li>
+      <li class="white-font footer-links">Suite 300</li>
+      <li class="white-font footer-links">San Francisco, CA 94105</li>
+      <li class="white-font footer-links">United States</li>
+  </div>
+
+  <div class="container col-md-3">
+    <h5 class="white-font">Need More Help?</h5>
+    <p class="white-font">If you still can't find what you're looking for, try search H&T.<p>
+
+    <button class="footer-btn">Need more Help?</button>
+  </div>
+
+  </div>
+</div>
