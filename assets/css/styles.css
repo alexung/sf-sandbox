@@ -24,6 +24,10 @@ body {
   color: #1079B9;
 }
 
+.blue-background {
+  background-color: #1079B9; 
+}
+
 .grey {
   background-color: #F4F4F4;
 }
@@ -126,4 +130,68 @@ body {
 
 .margin-right {
   margin-right: 10px;
+}
+
+.clear {
+  clear: both;
+  line-height: 0;
+}
+
+.white-font {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+.white-btn {
+  margin: 0 auto;
+  float: left;
+  text-transform: uppercase;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  background-color: white;
+  color: #1079B9;
+  padding: 12.5px 25px;
+  text-shadow: none;
+  border: none;
+  box-shadow: none;
+}
+
+.footer-links:hover {
+  color:black;
+  text-decoration: none;
+}
+
+.footer-links {
+  list-style-type: none;
+}
+
+
+.upgrade-statement-img {
+  background-image: url("/assets/img/upgrade-statement-img.png");
+  background-attachment: fixed;
+  background-position: right top;
+  background-repeat: no-repeat;
+  margin-right: 200px;
+
+}
+
+.footer {
+  background-color: grey;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.footer-btn {
+    margin: 0 auto;
+  float: left;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-color: #EDEDED;
+  color: black;
+  padding: 5px 10px;
+  text-shadow: none;
+  border: none;
+  box-shadow: none;
 }
