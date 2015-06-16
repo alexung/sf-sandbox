@@ -24,6 +24,10 @@ body {
   color: #1079B9;
 }
 
+.grey {
+  background-color: #F4F4F4;
+}
+
 .help-training {
   font-family: 'Lato', sans-serif;
 }
@@ -87,6 +91,10 @@ body {
 
 }
 
+.browse-all-btn {
+  text-align: right;
+}
+
 .total-boxes {
   margin: 20px 0 20px 0;
   padding: 0;
@@ -107,4 +115,15 @@ body {
   margin: 1% 0 1% 0;
 }
 
+.additional-help-box {
+  background-color: #EDEDED;
+  margin: 20px 0 20px 0;
+}
 
+.right {
+  text-align: right;
+}
+
+.margin-right {
+  margin-right: 10px;
+}
