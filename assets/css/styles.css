@@ -179,13 +179,21 @@ body {
 }
 
 
-.upgrade-statement-img {
-  background-image: url("/assets/img/upgrade-statement-img.png");
+img.upgrade-statement-img {
+/*background-image: url("/assets/img/upgrade-statement-img.png");
   background-attachment: fixed;
   background-position: right top;
-  background-repeat: no-repeat;
-  margin-right: 200px;
+  background-repeat: no-repeat;*/  
+  float: right;
+  position: relative;
+  top: -38px;
+  z-index: 99;
 
+}
+
+.upgrade-statement-text {
+  bottom: 30px;
+  margin-left: 40%;
 }
 
 .footer {
