@@ -166,7 +166,7 @@ body {
   text-decoration: none;
 }
 
-.footer-links {
+.footer-links li {
   list-style-type: none;
 }
 
