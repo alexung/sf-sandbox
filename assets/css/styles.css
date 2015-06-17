@@ -96,7 +96,9 @@
 }
 
 .browse-all-btn {
-  text-align: right;
+  position: absolute;
+  top: 5%;
+  right: 15%;
 }
 
 .total-boxes {
@@ -128,12 +130,11 @@
   margin: 20px 0 20px 0;
 }
 
-.right {
+.bottom-right {
   position: absolute;
   bottom: 5%;
   right: 15%;
 }
-
 
 
 .margin-right {
