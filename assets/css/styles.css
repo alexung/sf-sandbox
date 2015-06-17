@@ -136,6 +136,14 @@ body {
   margin-left: 10px;
 }
 
+.margin-bottom {
+  margin-bottom: 1px;
+}
+
+.margin-top {
+  margin-top: 50px;
+}
+
 .clear {
   clear: both;
   line-height: 0;
