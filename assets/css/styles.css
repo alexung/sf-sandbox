@@ -1,5 +1,5 @@
-body {
-
+.header-link a:hover {
+  border-bottom: 3px solid #1079B9;
 }
 
 .pull-left {
@@ -119,14 +119,22 @@ body {
   margin: 1% 0 1% 0;
 }
 
+.additional-help-container {
+  padding: 30px 0 50px 0;
+}
+
 .additional-help-box {
   background-color: #EDEDED;
   margin: 20px 0 20px 0;
 }
 
 .right {
-  text-align: right;
+  position: absolute;
+  bottom: 5%;
+  right: 15%;
 }
+
+
 
 .margin-right {
   margin-right: 10px;
