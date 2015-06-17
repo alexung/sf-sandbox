@@ -132,6 +132,10 @@ body {
   margin-right: 10px;
 }
 
+.margin-left {
+  margin-left: 10px;
+}
+
 .clear {
   clear: both;
   line-height: 0;
@@ -177,6 +181,7 @@ body {
 }
 
 .footer {
+  margin: 3% 0 3% 0;
   background-color: grey;
   margin: 0;
   padding: 0;
@@ -184,7 +189,7 @@ body {
 }
 
 .footer-btn {
-    margin: 0 auto;
+  margin: 0 auto;
   float: left;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
