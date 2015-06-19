@@ -97,7 +97,7 @@
 
 .browse-all-btn {
   position: absolute;
-  top: 5%;
+  top: 11%;
   right: 15%;
 }
 
@@ -128,6 +128,19 @@
 .additional-help-box {
   background-color: #EDEDED;
   margin: 20px 0 20px 0;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
 }
 
 .bottom-right {
