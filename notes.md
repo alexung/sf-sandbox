@@ -8,6 +8,8 @@
 
 -Make user dropdown menu ("My Analytics" should have 3 more sub dropdown options)
 
+-Replace old header with new global header everywhere
+
 ---For Help & Training Page---
 -Browse all docs will take you to the preexisting page that it currently does.
 
