@@ -117,6 +117,10 @@
   border-bottom: thick solid #1079B9;
 }
 
+.each-box-margin-bottom {
+  margin-bottom: 10px;
+}
+
 .each-solutions-box {
   margin: 1% 0 1% 0;
 }
