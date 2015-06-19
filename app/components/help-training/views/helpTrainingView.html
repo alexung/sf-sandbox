@@ -9,20 +9,33 @@
      <button type="submit" class="home-btn search-btn"><i class="glyphicon glyphicon-search"></i> search</button>
         <button type="submit" class="home-btn">i'm feeling lucky</button> -->
 
+      <div class="row">
       <div style="overflow: hidden; padding-right: .5em;">
       <div class="col-md-12">
         <div class="input-group input-group-md">
-          <span class="input-group-btn">
-          <button class="btn btn-default browse-docs-btn" type="button">browse docs <i class="glyphicon glyphicon-menu-down"></i></button>
-        </span>
+          <div class="input-group-btn">
+          <button type="button" class="btn btn-default dropdown-toggle browse-docs-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">browse docs <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li><a href="#/">Action</a></li>
+          <li><a href="#/">Another action</a></li>
+          <li><a href="#/">Something else here</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="#/">Separated link</a></li>
+        </ul>
+      </div><!-- /btn-group -->
+
           <input type="text" class="form-control search-bar" placeholder="Have a Question? Ask or enter a search term here." aria-describedby="sizing-addon1">
           <span class="input-group-btn">
           <button class="btn btn-default home-btn search-btn" type="button"><i class="glyphicon glyphicon-search"></i> search</button>
+        </span>
+        <span class="input-group-btn">
+
         </span>
 
         </div>
       </div>
       </div>
+    </div> <!-- /.row-->
     </form>
   
 
