@@ -1,2 +1,2 @@
-var sfApp = angular.module('sfApp', ['ngRoute']);
+var sfApp = angular.module('sfApp', ['ngRoute', 'ui.router']);
 
