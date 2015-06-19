@@ -97,7 +97,7 @@
 
 .browse-all-btn {
   position: absolute;
-  top: 5%;
+  top: 11%;
   right: 15%;
 }
 
@@ -117,6 +117,10 @@
   border-bottom: thick solid #1079B9;
 }
 
+.each-box-margin-bottom {
+  margin-bottom: 10px;
+}
+
 .each-solutions-box {
   margin: 1% 0 1% 0;
 }
@@ -128,6 +132,20 @@
 .additional-help-box {
   background-color: #EDEDED;
   margin: 20px 0 20px 0;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    vertical-align: top;
 }
 
 .bottom-right {
@@ -229,4 +247,8 @@ img.upgrade-statement-img {
   text-shadow: none;
   border: none;
   box-shadow: none;
+}
+
+.top {
+  top: 0;
 }
