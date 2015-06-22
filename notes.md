@@ -1,3 +1,10 @@
+TODO:
+1. Modularize the app (currently, the global header is placed in a partial and I'm trying to render it with angular-ui-router) -- IT'S CALLED MULTIPLE PARALLEL VIEWS! not just nested views
+
+2. Get buttons, when hovered over, to have a blue box ascend
+
+3. Fit search within input & add I'm feeling lucky button.
+
 -logging in to the platform will bring you to a new page where you type in your credentials and then you get redirected back to the home page with "My Success Hub"
 
 -The logging a case page has changed a bit where there's a directory on the right that shows you how you ended up on the log a case page.

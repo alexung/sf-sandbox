@@ -10,7 +10,8 @@
 
   </head>
   <body ng-controller="helpTrainingCtrl">
-      <header>
+    <!-- Global Header -->
+<!--       <header>
       <nav class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
@@ -31,11 +32,21 @@
 
       </div>
       </nav>
-    </header>
+    </header> -->
 
-    <div id="main">
+    <!--test ui view-->
+   
+<!--       <div ui-view></div>
+ -->  <div ui-view="header"></div>
+      <div ui-view="restOfTemplate"></div>
+     
+  <!--   <a ui-sref="helpTrainingView.header"></a> -->
+
+    <!-- END test ui view -->
+
+   <!--  <div id="main">
       <div ng-view></div>
-    </div>
+    </div> -->
 
     <!-- JQUERY -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
