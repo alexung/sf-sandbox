@@ -12,16 +12,21 @@ sfApp.config(function($stateProvider, $urlRouterProvider) {
 
 	$stateProvider
 		.state("root", {
-			url: '',
+			url: '/',
 			views: {
 				"header": { 
-					templateUrl: "app/components/help-training/partials/header.html",
+					templateUrl: "app/components/global/partials/globalHeader.html",
 					controller: "helpTrainingCtrl" 
+				},
+				"searchBar": {
+					templateUrl: "app/components/help-training/views/partials/searchBar.html",
+					controller: "helpTrainingCtrl"
 				},
 				"restOfTemplate": { 
 					templateUrl: "app/components/help-training/views/helpTrainingView.html",
 					controller: "helpTrainingCtrl"
 				}
+
 			}
 		})
 

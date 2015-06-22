@@ -20,3 +20,6 @@ TODO:
 ---For Help & Training Page---
 -Browse all docs will take you to the preexisting page that it currently does.
 
+
+NOTES:
+1. Url when modular does NOT work with /# at the end...
