@@ -192,9 +192,21 @@ img.company-logo-img {
 
 /* END 6-boxes */
 
+/* START topSolutions */
 .each-solutions-box {
   margin: 1% 0 1% 0;
 }
+
+.tooltip-fake{
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 3;
+   display: none;
+}
+            
+
+/* END topSolutions */
 
 .additional-help-container {
   padding: 30px 0 50px 0;
