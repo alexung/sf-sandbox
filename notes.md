@@ -1,9 +1,7 @@
 TODO:
-1. Modularize the app (currently, the global header is placed in a partial and I'm trying to render it with angular-ui-router) -- IT'S CALLED MULTIPLE PARALLEL VIEWS! not just nested views
+1. Get buttons, when hovered over, to have a blue box ascend. LOOK AT CSS CLASSES hidden-box, .6-box-container, etc.
 
-2. Get buttons, when hovered over, to have a blue box ascend
-
-3. Fit search within input & add I'm feeling lucky button.
+2. Fit search within input & add I'm feeling lucky button.
 
 -logging in to the platform will bring you to a new page where you type in your credentials and then you get redirected back to the home page with "My Success Hub"
 
@@ -23,3 +21,4 @@ TODO:
 
 NOTES:
 1. Url when modular does NOT work with /# at the end...
+2. Don't start a css class with a number...
