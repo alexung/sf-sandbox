@@ -150,18 +150,22 @@ img.company-logo-img {
   margin-bottom: 10px;
 }
 
-.6-box-container {
+/* HOW DO YOU FIX THIS? */
+/** {
+  overflow: hidden;
+}
+*/
+/* END HOW DO YOU FIX THIS */
+
+.container-6-box {
   position: relative;
-  width: 100px;
-  height: 100px;
-  margin: 100px 0 0 50px;
   padding: 0;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .hidden-box {
   position: absolute;
-  top:50px;
+  top:98%;
   left: 0;
   background-color: #1079B9;
   color: white;
@@ -173,12 +177,11 @@ img.company-logo-img {
 
 .6-box-action-btn {
   text-transform: uppercase;
-  color: white;
 }
 
-.container:hover .hidden-box {
+.container-6-box:hover .hidden-box {
   animation: up-bump 0.4s ease;
-  top: 0px;
+  top: 30%;
 }
 
 
