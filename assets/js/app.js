@@ -1,9 +1,6 @@
-$(document).ready(function(){
-
-	// $(".simpletip-hook").simpletip({
-	// 	content: "lololol",
-	// 	fixed: true,
-	// 	position: 'left'
-	// });
+// currently commented out of index.html
+$(document).ready(function($) {
+    
+    $('.totally-test').tooltipster();
 
 });

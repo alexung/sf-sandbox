@@ -196,14 +196,6 @@ img.company-logo-img {
 .each-solutions-box {
   margin: 1% 0 1% 0;
 }
-
-.tooltip-fake{
-   position: absolute;
-   top: 0;
-   left: 0;
-   z-index: 3;
-   display: none;
-}
             
 
 /* END topSolutions */
