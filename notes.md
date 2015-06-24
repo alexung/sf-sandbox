@@ -1,5 +1,5 @@
 TODO:
-1. Get buttons, when hovered over, to have a blue box ascend. LOOK AT CSS CLASSES hidden-box, .6-box-container, etc.
+1. Get Top Solutions, when hovered over, to have a tooltip come up
 
 2. Fit search within input & add I'm feeling lucky button.
 
