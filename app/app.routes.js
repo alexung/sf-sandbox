@@ -50,6 +50,28 @@ sfApp.config(function($stateProvider, $urlRouterProvider) {
 				}
 
 			})
+			.state("technical", {
+				url: "/technical",
+				views: {
+					"technicalView": {
+						templateUrl: "app/components/technical/views/technicalView.html",
+						controller: "helpTrainingCtrl"
+					},
+					"header@technical": { 
+						templateUrl: "app/components/global/partials/globalHeader.html",
+						controller: "helpTrainingCtrl" 
+					},
+					"searchBar@technical": {
+						templateUrl: "app/components/technical/views/partials/searchBar.html",
+						controller: "helpTrainingCtrl"
+					},
+					"trending@technical": {
+						templateUrl: "app/components/technical/views/partials/trending.html",
+						controller: "helpTrainingCtrl"
+					}
+				}
+
+			})
 
 		$urlRouterProvider
 			.otherwise('/');

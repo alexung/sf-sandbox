@@ -196,6 +196,37 @@ img.company-logo-img {
 .each-solutions-box {
   margin: 1% 0 1% 0;
 }
+
+.my-tooltip{
+    display: inline;
+    position: relative;
+}
+
+.my-tooltip:hover:after{
+    background-color: #fff;
+    border-color: black;  
+    border-radius: 5px;
+    bottom: 26px;
+    color: #000;
+    content: attr(tooltip);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+}
+
+.my-tooltip:hover:before{
+    border: solid;
+    border-color: #000 transparent;
+    background-color: #fff;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
             
 
 /* END topSolutions */
