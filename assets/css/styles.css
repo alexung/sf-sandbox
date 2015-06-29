@@ -358,3 +358,58 @@ img.upgrade-statement-img {
 .top {
   top: 0;
 }
+/* FOR TECHNICAL SUPPORT */
+
+/* Trending */
+.max-min {
+    border:solid 1px;
+    width: 25px;
+    height: 23px;
+    float:right;
+    cursor:pointer;
+}
+
+.trending-browse-docs-btn {
+  float:right;
+  text-transform: uppercase;
+  position: relative;
+  bottom: -55px;
+}
+
+.faqs-info {
+    height: 250px;
+    background: #F4F4F4;
+    width: 100%;
+    left: 0px;
+}
+
+.tab-header {
+  text-align: center; 
+  border: #F4F4F4 solid 2px;
+  border-bottom: none;
+  font-size: 20px;
+  margin-right: 5px;
+  font-family: "Lato", sans-serif;
+  padding: 10px 10px 0 10px; 
+}
+
+.tab-background {
+  background-color: #F4F4F4;
+  width: 100%;
+  left: 0;
+}
+
+.light-grey-background {
+  background-color: #F4F4F4;
+}
+
+.tab-container {
+  background-color: #F4F4F4;
+  padding: 0 -100% 0 -100%;
+}
+
+
+/* END Trending */
+
+
+/* END TECHNICAL SUPPORT */

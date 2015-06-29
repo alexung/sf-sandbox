@@ -1,5 +1,26 @@
 <div class="container">
 	<h1>Trending</h1>
 	<p>Nullam quis risus eget uma molis omare vel eu leo.  Cum Socilis natoque pnatibus<br>
-		et magnis dis parturient montes, nascetur riduclus mus.</p>
+	et magnis dis parturient montes, nascetur riduclus mus.</p>
+</div>
+
+<div class="col-md-12">
+	<span class="trending-browse-docs-btn"><a href="#/">browse all <i class="glyphicon glyphicon-menu-right"></i></a></span>
+
+	<div class="container">
+	<tabset>
+		
+		<div class="row row-centered">
+
+    		<tab ng-repeat="tab in tabs" heading="{{tab.title}}" active="tab.active" disable="tab.disabled" class="col-md-2 col-centered tab-header">
+    			<div class="row row-centered tab-container">
+      		
+	      			<div class="tab-background">
+		      			<div class="faqs-info">{{tab.content}}</div>
+					</div>
+				</div>
+    		</tab>
+		</div>
+	</tabset>
+	</div>
 </div>

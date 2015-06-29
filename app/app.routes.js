@@ -69,6 +69,7 @@ sfApp.config(function($stateProvider, $urlRouterProvider) {
 						templateUrl: "app/components/technical/views/partials/trending.html",
 						controller: "helpTrainingCtrl"
 					}
+
 				}
 
 			})
